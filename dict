@@ -1,0 +1,6 @@
+#!/bin/bash
+# this shell is used for looking up English word.
+# get the word information from web http://dict.cn/mini.php?q=$*
+# but this shell can't be used now since the website has changed
+# '$*' is the avariable expression of the word.
+w3m -dump -no-cookie http://dict.cn/mini.php?q=$*
